@@ -1,6 +1,5 @@
 <?php
 	$link = new mysqli("localhost", "root", "", "rating") or die ("ERROR 404");
-	//$id_user = $_POST["id_user"];
 
 	$select = "SELECT * FROM bussiness";
 	$query = mysqli_query($link, $select);

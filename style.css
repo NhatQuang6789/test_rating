@@ -1,0 +1,29 @@
+body{
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+}
+.default_container{
+	width:100%;
+	position:relative;
+}
+.row_content{
+	margin-top:10px;
+	border-bottom:1px solid #ccc;
+	padding:10px 10px 20px 10px;
+}
+.tiny{
+	margin:20px;
+}
+h4{
+	margin-left:20px;
+}
+.vote{
+	margin-top:15px;
+}
+.icon{
+	color:#ccc;
+	cursor:pointer;
+}
